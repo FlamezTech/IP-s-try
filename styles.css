@@ -1,0 +1,550 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(240, 199, 216);
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-left: 110px;
+    padding-right: 110px;
+    background-color: rgb(240, 199, 216);
+    position: fixed;
+    width: 100%;
+    z-index: 100%;
+    top: 0;
+    left: 0;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navlinks {
+    display: flex;
+}
+
+.navlinks li {
+    list-style: none;
+}
+
+.navlinks li a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+.navlinks li a:hover {
+    color: rgb(112, 103, 103);
+    transition: 0.5s;
+}
+
+.navicon a {
+    text-decoration: none;
+    border: 1px solid purple;
+    border-radius: 10px;
+    padding: 15px;
+    color: black;
+}
+
+.navicon .back {
+    background: url('background.jpg') no-repeat center center/cover;
+    color: white;
+    border: none;
+}
+
+.move {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 110px;
+    padding-right: 110px;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.text {
+    max-width: 50%;
+}
+
+.text h1 {
+    font-size: 4rem;
+    width: 100%;
+    font-weight: bolder;
+}
+
+.text a {
+    background: url(background.jpg) no-repeat center center/cover;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.image {
+    max-width: 40%;
+}
+
+.image img {
+    max-width: 80%;
+}
+
+.alert {
+    background: url(background.jpg) no-repeat center center/cover;
+    padding: 10px;
+    margin: 0px;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+}
+
+.goten {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    white-space: nowrap;
+    animation: scroll-left 30s linear infinite;
+}
+
+.goten img {
+    height: 30px;
+    width: 30px;
+}
+
+.goten p {
+    color: white;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.goku {
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bar {
+    display: flex;
+    flex-direction: column;
+}
+
+.bar label {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.flow input {
+    padding: 15px;
+    width: 600px;
+    border: none;
+    font-size: 15px;
+}
+
+.flow button {
+    padding: 15px;
+    border: none;
+    background: url(background.jpg) no-repeat center center/cover;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    right: 300px;
+    cursor: pointer;
+}
+
+.newest {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.path img {
+    height: 400px;
+    width: 400px;
+    border-radius: 25px;
+}
+
+.items {
+    display: block;
+}
+
+.pour {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.block {
+    background: url(background.jpg) no-repeat center center/cover;
+    padding: 4px;
+    border-radius: 50%;
+    margin: 10px;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+}
+
+.block img {
+    height: 50px;
+    width: 50px;
+}
+
+.catologue {
+    padding: 20px;
+    text-align: center;
+    padding: 20px;
+    background: url(background.jpg) no-repeat center center/cover;
+}
+
+.catologue h1 {
+    margin: 5px;
+    font-size: 80px;
+    color: white;
+}
+
+.catologue p {
+    margin-bottom: 40px;
+    color: white;
+}
+
+.complete {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0px;
+    width: 100%;
+}
+
+.clothes {
+    width: 22%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 5px;
+}
+
+.clothes img {
+    height: 70%;
+    width: auto;
+    border-radius: 15px;
+}
+
+.parts {
+    display: flex;
+    justify-content: space-between;
+    margin: 7px;
+    align-items: center;
+}
+
+.parts p {
+    margin-bottom: 0px;
+    color: gray;
+}
+
+.part p {
+    margin-bottom: 0px;
+    color: black;
+}
+
+.part a {
+    padding: 15px;
+    background: url(background.jpg) no-repeat center center/cover;
+    color: white;
+    text-decoration: none;
+}
+
+.owner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.graphy h1 {
+    font-size: 250px;
+}
+
+.graphy h4 {
+    font-size: 60px;
+}
+
+.hisown img {
+    height: 450px;
+    width: 450px;
+    border-radius: 0% 0% 50% 50%;
+}
+
+.inner {
+    background: url(background.jpg) no-repeat center center/cover;
+    padding: 20px;
+    padding-left: 110px;
+    padding-right: 110px;
+    color: white;
+    text-align: center;
+}
+
+.inner h1 {
+    font-size: 80px;
+}
+
+.inner .rara {
+    width: 380px;
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+
+.flowteam {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+    color: black;
+}
+
+.team p {
+    text-align: left;
+}
+
+.them {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.them .bold {
+    font-weight: bold;
+}
+
+.them img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+@media (max-width: 780px) {
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    header {
+        width: 100%;
+    }
+    .navbar {
+        flex-direction: row;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .hamburger-menu {
+        display: block;
+        font-size: 30px;
+        color: black;
+        cursor: pointer;
+    }
+
+    .navlinks {
+        display: none; /* Hidden by default */
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(240, 199, 216);
+        position: fixed;
+        top: 70px; /* Below the navbar */
+        right: 0;
+        width: 100%;
+        z-index: 1000;
+        transition: transform 0.3s ease, visibility 0.3s ease;
+        transform: translateY(-100%);
+        visibility: hidden; /* Ensures smooth animation */
+    }
+    
+    .navlinks.active {
+        display: flex; /* Show menu on toggle */
+        transform: translateY(0); /* Slide down */
+        visibility: visible;
+    }
+    
+
+    .navicon {
+        display: none;
+    }
+
+    .move {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        padding: 0%;
+        margin-top: 80px;
+    }
+
+    .move h1 {
+        width: 100%;
+        font-size: 30px;
+        margin: 0%;
+        max-width: 100%;
+    }
+
+    .image {
+        max-width: 70%;
+    }
+
+    .image img {
+        max-width: 70%;
+    }
+
+    .goku {
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .bar {
+        padding: 10px;
+    }
+
+    .flow input {
+        width: 450px;
+    }
+
+    .flow button {
+        right: 12px;
+    }
+
+    .newest {
+        padding: 10px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+    }
+
+    .path img {
+        height: 400px;
+        width: 400px;
+    }
+
+    .block {
+        width: 40px;
+        height: 40px;
+    }
+
+    .block img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .ice h2 {
+        font-size: 17px;
+    }
+
+    .ice p {
+        font-size: 13px;
+    }
+
+    .catologue {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .complete {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .clothes {
+        width: 85%;
+        margin: 10px;
+        height: auto;
+    }
+
+    .clothes img {
+        width: 100%;
+        height: auto;
+    }
+
+    .owner {
+        flex-wrap: wrap;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .graphy {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .graphy h1 {
+        font-size: 90px;
+    }
+    .graphy h4 {
+        font-size: 25px;
+    }
+
+    .hisown {
+        margin: 0px auto;
+    }
+
+    .hisown img {
+        height: 350px;
+        width: 350px;
+    }
+
+    .inner {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0%;
+    }
+
+    .flowteam {
+        flex-direction: column;
+    }
+
+}
+
+
